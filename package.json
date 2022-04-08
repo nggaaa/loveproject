@@ -1,0 +1,11 @@
+{
+  "name": "loveproject",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./css/style.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
